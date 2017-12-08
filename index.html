@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/photon/dist/css/photon.css">
+    <title>Markdown Editor</title>
+
+    <style type="text/css">
+        #app {
+            position: absolute;
+            top: 8px;
+            bottom: 8px;
+            left: 8px;
+            right: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="window">
+        <div id="app" class="window-content"></div>
+    </div>
+</body>
+<script>require('./dist/renderer/app.js')</script>
+
+</html>
